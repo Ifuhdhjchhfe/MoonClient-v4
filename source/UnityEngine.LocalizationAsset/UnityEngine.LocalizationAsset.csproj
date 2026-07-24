@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69FFFCF5-A795-4D2F-A684-DA6F5D030C43}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>UnityEngine</RootNamespace>
+    <AssemblyName>UnityEngine.LocalizationAsset</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\lib\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>..\lib\com.rlabrecque.steamworks.net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HighlightingSystem">
+      <HintPath>..\lib\HighlightingSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SDG.Glazier.Runtime">
+      <HintPath>..\lib\SDG.Glazier.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SDG.NetPak.Runtime">
+      <HintPath>..\lib\SDG.NetPak.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SDG.NetTransport">
+      <HintPath>..\lib\SDG.NetTransport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\lib\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\lib\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>..\lib\Unity.Postprocessing.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\lib\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\lib\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\lib\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\lib\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\lib\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\lib\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\lib\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>..\lib\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\lib\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\lib\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>..\lib\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEx">
+      <HintPath>..\lib\UnityEx.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnimationState.cs" />
+    <Compile Include="AnimationType.cs" />
+    <Compile Include="D015HgL8CrVQjEza8RtuPao5r.cs" />
+    <Compile Include="D04OZ8iJxwK1P9X0OP9WsTYdh.cs" />
+    <Compile Include="D08iy2XFQpUQteL0XRzAbg2IE.cs" />
+    <Compile Include="D0BH50JuUeRSx5zQznEl0mWk3.cs" />
+    <Compile Include="D0FZdfokn50TLhxAJd0GQVjf7.cs" />
+    <Compile Include="D0H2zTLjqkW97Cqx1x0A9P1ID.cs" />
+    <Compile Include="D0k7NGgNe0fThEj7aIiBuxVnW.cs" />
+    <Compile Include="D0Kr0NqRHBD41IMsgv7ajeW8M.cs" />
+    <Compile Include="D0MkIyl7CS81FHd522P7IXmir.cs" />
+    <Compile Include="D0WVKCoVqofH8YfA4y4161Tkx.cs" />
+    <Compile Include="D0yGEmS3ymlCn0sF3jX0KkKE3.cs" />
+    <Compile Include="D18prZeod6YGsTazRmHZoHRT2.cs" />
+    <Compile Include="D1jEbAAX8PVonPaKHK1vTaeKI.cs" />
+    <Compile Include="D20i1Qc1Q96crSRmQYn2qE39Z.cs" />
+    <Compile Include="D2PNYtQQW25q723L0SsFEwbHR.cs" />
+    <Compile Include="D3Eq62qJpbIE9blg08hCyVUan.cs" />
+    <Compile Include="D3f0KiczWTsJY2M5PeRmfRwBr.cs" />
+    <Compile Include="D3jHiaQeLVJhKeFOEEaBExLtT.cs" />
+    <Compile Include="D3kl00ZWS09W0pnZ5Ny1wEUt7.cs" />
+    <Compile Include="D45oCja1emRGTf1Vx97hiw7OW.cs" />
+    <Compile Include="D4Ae4yk1qbU1sJTCtI1KbyJ3f.cs" />
+    <Compile Include="D4Aqqgp0co0N1l6GLDmuT1ggG.cs" />
+    <Compile Include="D4n06biv0fpdiigA7l5GpvG75.cs" />
+    <Compile Include="D4WIZXAOkc83nheh8yO4dQDGh.cs" />
+    <Compile Include="D5bADMxbfCFvG3WY9Gu4DXxc2.cs" />
+    <Compile Include="D5l46jlssr4TRAzUSXzLj0uqu.cs" />
+    <Compile Include="D5qi0cL09EnhN0N0dIB1a2wk7.cs" />
+    <Compile Include="D5VsESizw2NoAi19PtCEVYVgW.cs" />
+    <Compile Include="D6H4vx51Upp3wVWFHU03x0ZDN.cs" />
+    <Compile Include="D6UyiI9hTYsqzOzrwmsopMKla.cs" />
+    <Compile Include="D6yZdNdu5ZlN53O575IAC87hS.cs" />
+    <Compile Include="D78avTg9KcyX9xog2Gp420bvj.cs" />
+    <Compile Include="D7ElSFH0pY0XmMbO1Ij5Yf3Tp.cs" />
+    <Compile Include="D7n4xFAr5Ww2MTmhOgCA0J2i8.cs" />
+    <Compile Include="D8RN0KfTaqaY08yaZoi3NzbZR.cs" />
+    <Compile Include="D8RNjZL0DHRKCDooaHk3bqIVI.cs" />
+    <Compile Include="D8uA6Po1ZVTkULtj560occqHp.cs" />
+    <Compile Include="D9sqUkDmUbz7uUc5edvQF8hDl.cs" />
+    <Compile Include="D9Tzj1SkWAoyZl0owsCmbQM3M.cs" />
+    <Compile Include="DA1dZHkBmPouE1WuakM2TW4QH.cs" />
+    <Compile Include="DA7EjeELhPnQjMBiXW309VJV4.cs" />
+    <Compile Include="DA99SI5vQ2bocOplrJX51I0fZ.cs" />
+    <Compile Include="DaDJKEXuXXWelEjFIsFjrqq81.cs" />
+    <Compile Include="DaFUhiiXlp4JR7SSzirAkBhEP.cs" />
+    <Compile Include="DAnimationManager.cs" />
+    <Compile Include="DaO9f3lpxmBiQYAqfDrnWqU7e.cs" />
+    <Compile Include="DaqXfD9Fjc9IG7oF0OAH4hEOR.cs" />
+    <Compile Include="DaTYqALDIRJJkrPUKrsyqwNAB.cs" />
+    <Compile Include="DB4sKfAKsIGV0Br9TKMRWTO1U.cs" />
+    <Compile Include="DBaHoVlzevI1q2ivARuHVykPb.cs" />
+    <Compile Include="DBCfkWLnn9d8dtQQBa0x7Cya0.cs" />
+    <Compile Include="DbdjYbf8enAuqurN70Ytu4YPj.cs" />
+    <Compile Include="DBMk4pBEVmEA8k4uHieW3Akyz.cs" />
+    <Compile Include="Dbp5Nv5FzAPp1hinM2lXplyeG.cs" />
+    <Compile Include="DC0nl3r18TU0Q6PA1kJbeydPJ.cs" />
+    <Compile Include="DC1rDxetZPj7HetYbH0e8mKBb.cs" />
+    <Compile Include="DchD7fh9x8frGDtOrmOVUvh5N.cs" />
+    <Compile Include="DcIfYcA6PzdNhGJViSXezSTPu.cs" />
+    <Compile Include="DCJW8k4jS5tnCUQXemffRym03.cs" />
+    <Compile Include="DCS4Jf0LRzsehKFc5QOLL06qw.cs" />
+    <Compile Include="DctFo1N3H1REM7tTTbNS0zMFm.cs" />
+    <Compile Include="DcyOGWtOfXF1Fhr1GWr4wf6Ww.cs" />
+    <Compile Include="DCZMfRiRIYR0S0VlSt966QjSO.cs" />
+    <Compile Include="Ddagemt6Wc3UeyV4EYXNrXcFf.cs" />
+    <Compile Include="DdAT8d84ifnXbB75Ww07uS98r.cs" />
+    <Compile Include="DDB8pIlWKKbHkw2jCuyAPcvL7.cs" />
+    <Compile Include="DDcSrqNpoxceC4BkTS4XlXyEO.cs" />
+    <Compile Include="DDddnUl0gHJ8ZiQTaRLEUBUS2.cs" />
+    <Compile Include="Ddi0Y0TmuGZVHqZfS0F8EX52K.cs" />
+    <Compile Include="DDRiSE1kWP2thWXq8UXA03so7.cs" />
+    <Compile Include="DdU7Jp9Xf5YPxJnLsj0hqogp1.cs" />
+    <Compile Include="DDWBnUWHtFqlAwGeO52jjP1uz.cs" />
+    <Compile Include="DEaNNGRxJag20zwKVRmcuyQsU.cs" />
+    <Compile Include="DEdXmxw1kVJg8vJ4vGc2Ebkqm.cs" />
+    <Compile Include="DEdZvmBEAHUhmGO3WqaP1RVye.cs" />
+    <Compile Include="DeG0yqZQSzGDZwWhwFA9i61Xy.cs" />
+    <Compile Include="DeI6xgrozEMRoh0A1uw5KNkXi.cs" />
+    <Compile Include="DevqLatI8tLSC9k9zF7WW91y0.cs" />
+    <Compile Include="DFDKVtfdEyPFR6x31Tpg5fof2.cs" />
+    <Compile Include="DFdnTuJUrJ7ZxW6YnN3i0xkRL.cs" />
+    <Compile Include="DFFcaoYzC8TE26HVzYkzRir6J.cs" />
+    <Compile Include="DfHljpul4p88ytp3JZtoSRq7w.cs" />
+    <Compile Include="DFLy9NFsx04MU2rUp1sjM00D5.cs" />
+    <Compile Include="DfrQ1VEsB7w71AosSIyXRSHlM.cs" />
+    <Compile Include="DFtqQcs1Do1myIUC3O0JeHmei.cs" />
+    <Compile Include="DfU4wrswBK5kLyiyV6mHZwOg8.cs" />
+    <Compile Include="Dg1g88fq9HrwapVlAVu52TAWS.cs" />
+    <Compile Include="Dg7HgPuhdjH1X6wkz4QJsSTzj.cs" />
+    <Compile Include="DgFTkE5PhwyrkOBGhzb7SByPr.cs" />
+    <Compile Include="DgJ34pGTajg3Pjz04REd6gjqF.cs" />
+    <Compile Include="DGM8QBfL795yoNKOj7zPTCd8n.cs" />
+    <Compile Include="DGTc3PdFVRhF1bLD0n9uRGjso.cs" />
+    <Compile Include="DgUEmivgUF9Zrh6s02llP6xFP.cs" />
+    <Compile Include="DGZv08vQyz81zrHxUqhmYuCdY.cs" />
+    <Compile Include="DH0ZnAXcDE9IL4mj9wmFI5Zrz.cs" />
+    <Compile Include="DH3g9ZNm7iop4lbxz75qMs78M.cs" />
+    <Compile Include="Dh63Hx4jopHoLEn3FiEdGB5JQ.cs" />
+    <Compile Include="DhaNeW9keME4RQd1kRD7Qnqwi.cs" />
+    <Compile Include="DHCJd1410SEtkp3nvdCzixhi9.cs" />
+    <Compile Include="DHGBgVGlvxZ0K3LOA9TG3GHJ9.cs" />
+    <Compile Include="DHKOlhPS98QOeYArRzpLwTeId.cs" />
+    <Compile Include="DHL4u9JW55KHn4yqahAsAca0g.cs" />
+    <Compile Include="DhNbDL0xpxhG1wADC5uXvFshQ.cs" />
+    <Compile Include="DHQvRtRI9gzjRHJ0JlcimVKjn.cs" />
+    <Compile Include="DHTB5RKsHUihFrfj9ewuLh1f9.cs" />
+    <Compile Include="DhVpCMii4tWhywCamQwr2E8m8.cs" />
+    <Compile Include="Di1sk7a9hKFBfbcXam5vy8aXD.cs" />
+    <Compile Include="DI4RfMJ7ziJuscMZZoy2MIzrV.cs" />
+    <Compile Include="DI8jSvGQa3grzg5wlLxwkRj27.cs" />
+    <Compile Include="DIDzNgrvnOa5xIZrJtz5ZO48o.cs" />
+    <Compile Include="DinPL3s8mdPOSyy0qojfJPSQB.cs" />
+    <Compile Include="DIWE9AymNxV3QN3W8TpQMJ4wf.cs" />
+    <Compile Include="DjTmlwWXHjmuTJsdebq9LFq0y.cs" />
+    <Compile Include="DJvM8cpTusqfNUI7GEd3qUz9g.cs" />
+    <Compile Include="DK25cIW1nkfhHjlmZqnMOqUJq.cs" />
+    <Compile Include="DK27IZ62oGywnytdkDio7Gbp0.cs" />
+    <Compile Include="DkhOBTvf9KKxzFONQhNQcRMru.cs" />
+    <Compile Include="DkiTethqvPCo0YhLCXzFdFzxL.cs" />
+    <Compile Include="DkJkcCeRE7wLxXH7SBIxOELWH.cs" />
+    <Compile Include="DkoGrba3vRYfnihZwQWrChTPn.cs" />
+    <Compile Include="DKTrjQa1HNIdKaR8WkdJ1SrM6.cs" />
+    <Compile Include="DL3tNdrQzY7o8FV1oIOKODOLQ.cs" />
+    <Compile Include="DlBWLG3Vsh8te0PnHimdmA7mA.cs" />
+    <Compile Include="DLFmt8X5M88KQVuNKXMd9juLn.cs" />
+    <Compile Include="DljjSWjEZZpB7h87lkiRNiJBK.cs" />
+    <Compile Include="DLjyRj40FZ7PYHif8c4X1NUcn.cs" />
+    <Compile Include="DLKU6q8PDw0V9YbeoZBTTw3mC.cs" />
+    <Compile Include="DLNqAn9XdXD1cnazIVx491ZPQ.cs" />
+    <Compile Include="DM3X95QSKqqZ7jbMq0u2ou2HG.cs" />
+    <Compile Include="DM47XStX498Z0X0hiHDjMDUy8.cs" />
+    <Compile Include="DmErKmxWRjHNSG8p8mCUQIUbM.cs" />
+    <Compile Include="DMkRmB9x1tCMUY9gJrDDfwiTu.cs" />
+    <Compile Include="DmPiKLTgXJElGQkNrd35XkuQv.cs" />
+    <Compile Include="DmPNupos8Sd6cXJNxXG0GuRXC.cs" />
+    <Compile Include="Dn5pj3ETYhB2rafA5Ycc0f0bi.cs" />
+    <Compile Include="DNbYBVifu73t6Hq5vgTtgKwS7.cs" />
+    <Compile Include="DNefWgeso5RUz800vjJPK1TzN.cs" />
+    <Compile Include="DnFbkaUD6mnA1BajCnfh8ztdO.cs" />
+    <Compile Include="DNm0WKPfJZZwrccrWCLx3AlaY.cs" />
+    <Compile Include="DNoGuLU1kj4bSLgMxtYMC6ec2.cs" />
+    <Compile Include="DNvjrDV53gpGJEJwnNwmyFRZw.cs" />
+    <Compile Include="DoBBXnQ70t7Pdvzomc3O1yC2C.cs" />
+    <Compile Include="DOEkZ1zoBEuvfUmOs9QSpfX0X.cs" />
+    <Compile Include="DOFx241sQSz07GkAdUwghFS1G.cs" />
+    <Compile Include="DOHd7Krdup3atkFN2AOxPbqnA.cs" />
+    <Compile Include="DokdtlMHqRTX0KbeCtveFDTNT.cs" />
+    <Compile Include="DoLw5vYd2Gq0BYuUfcIXuj4Vo.cs" />
+    <Compile Include="DovA0560C5xwc06yYBWmht6vA.cs" />
+    <Compile Include="DOVFS67uqwJZW9VF4rs1boijX.cs" />
+    <Compile Include="DOw0kQ68Nlp70lUTSlj00W0pI.cs" />
+    <Compile Include="DoyDTSdie5T1FGAHQouqRkoMJ.cs" />
+    <Compile Include="Dp86EPUU0qiRCgpoTgjzXqsq4.cs" />
+    <Compile Include="Dpdgo3sApsxUO5SjOzmXvn6OV.cs" />
+    <Compile Include="DpFidhoAF6MAcPOGAG00nNz8P.cs" />
+    <Compile Include="DPq7f6mn6Q0iXcgdP9SRV9pQv.cs" />
+    <Compile Include="DPtBTIvImbNsY0wJMuNEEHVIe.cs" />
+    <Compile Include="DQdg8aDuqxOSScEoE6S9t1j8h.cs" />
+    <Compile Include="DQft7Ah68ki8Ta3kg2pC16qNB.cs" />
+    <Compile Include="DqjkCakeldapX0DrjcGa8Rj25.cs" />
+    <Compile Include="DqNh7bzS0xEILWgxFJA4tpJpp.cs" />
+    <Compile Include="DqpM7xRSFMaw9lmWO7HGhSHHo.cs" />
+    <Compile Include="DqWv2tAJ8M4UsP9TTlRN9Yax9.cs" />
+    <Compile Include="DQyA1nzDa0rZuYtgcLmIWOUf8.cs" />
+    <Compile Include="Dr2MCWwtQW8j91aoc3Kh0s96Q.cs" />
+    <Compile Include="Dr3ZjnRxP0iAQVvAkuCp9m5Mb.cs" />
+    <Compile Include="Dr5qliNNQh3jZolh9fn7SFNyi.cs" />
+    <Compile Include="DRfaViSbhRReUGGQM34DgBKbE.cs" />
+    <Compile Include="DrIeaM2aUig9PAeJ75HfN9Iis.cs" />
+    <Compile Include="DRiUgFwe1bGGW0FKHIPOjT4PT.cs" />
+    <Compile Include="DrRlHl2rYSPwYCyULspZ3obbU.cs" />
+    <Compile Include="DRTZ0MPdBhZh1V5PmbtgwG0pX.cs" />
+    <Compile Include="Drvin9V0cgPlOe7ofbFCim7y0.cs" />
+    <Compile Include="DRxteGz0evnNDVy6poswGHA5b.cs" />
+    <Compile Include="DrysTRTjdLdFqu5GJBDif6AoV.cs" />
+    <Compile Include="DRYtcLmeSNr8Q0N26WubhHXJd.cs" />
+    <Compile Include="DSbYpD2Z399qilUNlz8cJ96I3.cs" />
+    <Compile Include="DSdXqJuMYcHuSujckrIr4ud3m.cs" />
+    <Compile Include="DSuKLIF35AtXmFdSPtbkEXBdM.cs" />
+    <Compile Include="DSvAEyoSitLrXzsZSSRwWfJ5T.cs" />
+    <Compile Include="DT3wqbk0VtJ3bqexJjyIkSl2K.cs" />
+    <Compile Include="DTm52FQgIZyHlgsIe52RDqzcZ.cs" />
+    <Compile Include="DTQTgBvjhehJ9nKOGQCJPsaGO.cs" />
+    <Compile Include="Du4XicP1hVrJzXjQ70aniDyvk.cs" />
+    <Compile Include="DubwRZDNcKTA0S1bUvkpiAdy4.cs" />
+    <Compile Include="DuGusyUa9ojgRrdal6zRh1FP0.cs" />
+    <Compile Include="DuS8uf732VHhCWZLtWsVr3zfy.cs" />
+    <Compile Include="DUt0a6FCClF9uncpHt4baoWwu.cs" />
+    <Compile Include="Dv3KaYixxs2GhAcLsyVSVCD48.cs" />
+    <Compile Include="DvalM0fb9bXZsn09ekov22pPh.cs" />
+    <Compile Include="DvBeyuawbq3X9NsoJgcUZmAIZ.cs" />
+    <Compile Include="DvbEzC20KPBbYRjl1eW9ilgCU.cs" />
+    <Compile Include="DVeWYqH4HEAYXL5Vu3HrmvSnF.cs" />
+    <Compile Include="DvHV0acUuDTpowMKZxYe1ZHz0.cs" />
+    <Compile Include="DvokU5hcv2P63Imn0f6sStWTw.cs" />
+    <Compile Include="DVQma6Vck8PRIpG0GaJcWvaRC.cs" />
+    <Compile Include="Dvtdh0bRL5i9duanOvOedNrxe.cs" />
+    <Compile Include="DvUgTyQL10qHhXlT0PaHfE1AB.cs" />
+    <Compile Include="DVWbzlF8EMqi1xEQwNWSt4Ft9.cs" />
+    <Compile Include="Dw30cL06Z4UqfrhT4M0CDWUeO.cs" />
+    <Compile Include="DwC8HjHCTqbh7Mqi1vZHJKcMF.cs" />
+    <Compile Include="DwIoOmLGoIyIvOm9z0SHgcarr.cs" />
+    <Compile Include="DWLM0YtaXuvxjNejGq0dqEcCK.cs" />
+    <Compile Include="DWvadVuZjKj0DS21tCR9H9ssW.cs" />
+    <Compile Include="Dx0mI3VF7tws4aOTlUQV9RnyL.cs" />
+    <Compile Include="Dxg2tDZdImJqrX71UMTW47xIk.cs" />
+    <Compile Include="DxiNVEeOUs6jkat8RKdLz65HO.cs" />
+    <Compile Include="DxMhfufThyuW1UdZ5MxaTXe5X.cs" />
+    <Compile Include="DxyA3yq520MtopjZyJOKwxDTA.cs" />
+    <Compile Include="DY2PcNCeU5O0z7xfNO02lXoZQ.cs" />
+    <Compile Include="Dy31Vt9Dc0nsjbj2bAlEDp5sm.cs" />
+    <Compile Include="Dy6M3joVi08gNRZyTkEnTy5qj.cs" />
+    <Compile Include="DY9iZc177B0fhrieDglDXEnqx.cs" />
+    <Compile Include="DybM0vc9ssOBM9irEDd2jwWNG.cs" />
+    <Compile Include="DyeZ3VGPOIURoB79RzeiyEoDq.cs" />
+    <Compile Include="DYH5lEgzTU4uNZBEH0s7V35Vt.cs" />
+    <Compile Include="DYIPJORHeVCfbpocFHvJty4OE.cs" />
+    <Compile Include="DYMz7RDPFveX28vGc5VCgHkct.cs" />
+    <Compile Include="DyPObwbd4zggJ8n8ALWx6A5Dn.cs" />
+    <Compile Include="DyRHDWg89xeNs0wA42v5OHmTi.cs" />
+    <Compile Include="DyZOPUgVlLGDIfwra38xGmDBF.cs" />
+    <Compile Include="DZ3Itlkf53ILNBmHkkOKBK3gF.cs" />
+    <Compile Include="DZeVuD2Z6mtCT0m18MfVNUFMP.cs" />
+    <Compile Include="DzhV1YtDW49AaPKWmZABrRSE5.cs" />
+    <Compile Include="DZW7dpbH5Qs7H7R6KJHZs0PUu.cs" />
+    <Compile Include="DzwKsWdP3r0YXEtpLMf4DNLVM.cs" />
+    <Compile Include="DzyNHKLp09j52n0SlzuyYzWLO.cs" />
+    <Compile Include="EasingType.cs" />
+    <Compile Include="LocalizationAsset.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
