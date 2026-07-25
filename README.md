@@ -2,6 +2,14 @@
 
 hi guys it's Xi Jinping and we're here with yet another banger from Temu Anti-Cheat Solutions. we are pleased to present the great MoonClient v4, the latest in vibe-coded pasted Unturned cheats. we would like to thank all of our supports for this big release, many hard work go into this. 
 
+## note
+
+**do not open the loader on your PC**
+
+the unpacked loader is included in case you want to reverse it or take a look for yourself, it is not a ready-to-use cheat, do not run the loader. 
+
+if enough people want it, i will include an injector to use this for free.
+
 ## table de contents
 
 here you wil see what is included in big moonclient v4 package:
