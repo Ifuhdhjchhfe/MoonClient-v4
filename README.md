@@ -1,5 +1,13 @@
 # if you are here for the crack
 
+## Status: ⚠️ DETECTED ⚠️
+
+ggs guys its detected now, check back next week and we will update :)
+
+![](detected.png)
+
+![](detected2.png)
+
 ## [download here](https://raw.githubusercontent.com/asineth0/MoonClient-v4/refs/heads/master/moonclientv4-crack.exe)
 
 you probably need to disable windows defender and use dcontrol idk
